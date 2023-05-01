@@ -1,0 +1,9 @@
+.player-board {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 70px;
+    border: 1px solid white;
+    width: auto;
+    height: auto;
+}

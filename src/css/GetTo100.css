@@ -1,0 +1,21 @@
+.player-boards {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    grid-template-rows: minmax(0, max-content) minmax(0, max-content);
+    grid-column-gap: 120px;
+    grid-row-gap: 20px;
+    align-items: center;
+}
+
+
+.game-started {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    /*width: 100%;*/
+}
+
+h1  {
+    margin-bottom: 20px;
+}
