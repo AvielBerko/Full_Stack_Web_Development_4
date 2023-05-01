@@ -1,0 +1,16 @@
+.game-section{
+    flex-basis: 70%;
+    justify-content: center;
+    align-items: center;
+}
+
+.leaders-section{
+    flex-basis: 30%;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-container {
+	display: flex;
+    flex-direction: row;
+}

@@ -1,0 +1,114 @@
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-options{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.charButton{
+    min-width: 50px;
+    min-height: 50px;
+    margin: 1px;
+  }
+
+.stylish{
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px blue;
+}
+
+.tabButton{
+    min-width: 65px;
+    min-height: 50px;
+    margin: 1px;
+  }
+
+.tabButtonSpecial{
+    min-width: 81px;
+    min-height: 50px;
+    margin: 1px;
+  }
+
+.enterButton{
+    min-width: 65px;
+    min-height: 50px;
+    margin: 1px;
+  }
+
+.enterButtonSpecial{
+    min-width: 80px;
+    min-height: 50px;
+    margin: 1px;
+  }
+
+.capsButton{
+    min-width: 133px;
+    min-height: 50px;
+    margin: 1px;
+  }
+
+.spacebarButton{
+    min-width: 333px;
+    min-height: 50px;
+    margin: 1px;
+  }
+
+.backspaceButton{
+  min-width: 80px;
+    min-height: 50px;
+    margin: 1px;
+}
+
+label {
+    margin-right: 10px;
+  }
+  
+select {
+    font-size: 16px;
+    padding: 5px;
+  }
+
+.indent {
+  letter-spacing: 25px;
+  text-indent: 24px;
+}
+
+.widthBackspace{
+  width: 120px;
+}
+
+.enterSpace{
+  width: 80px;
+}
+
+.my-button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  margin-right: 10px;
+}
+
+.my-button:hover {
+  background-color: #0062cc;
+  cursor: pointer;
+}
+
+.left{
+  margin-left: auto;
+}

@@ -1,0 +1,26 @@
+.player-container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(129, 69, 0, 1);
+	border-radius: 5px;
+}
+
+h1 {
+	font-size: 36px;
+	margin-top: 0;
+	margin-bottom: 20px;
+	color: rgba(129, 69, 0, 1);
+	text-align: center;
+}
+
+.info-category {
+	font-weight: bold;
+	color: rgba(129, 69, 0, 1);
+	margin-right: 10px;
+}
+
+.info-value {
+	color: #333;
+}
